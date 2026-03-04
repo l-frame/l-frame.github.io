@@ -1,0 +1,71 @@
+ body { 
+                background-color: #ffeecc;
+                font-family: "Titillium Web", Helvetica, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 1.6em;
+                color: #1a0d00;
+            }
+        
+
+            h1 {
+                
+                font-size: 26pt;
+                color:  #cc8800;
+                padding: 1.5rem;
+            }
+    
+            p {
+                font-size: 14pt;
+                font-weight: 400;
+                font-style: italic;
+            }
+            
+            img {
+        
+                border: 4px #000000 solid; /**controls border width, color, line style**/
+                margin: .65rem;
+                max-width: 100%;
+            }
+            
+            figcaption { 
+                margin: 1.25rem;
+                color: #1a0d00;
+            }
+            h2 {
+                font-size: 18pt;
+                padding: 1.5rem;
+            } 
+        
+    
+             h3 {
+                font-size: 18pt;
+                padding: 1.5rem;
+            }
+
+            p {
+            
+                font-style: italic;
+                margin: 1.5rem;
+
+            }
+            a:link {
+                color: #ff9900;
+                text-decoration: none; }
+
+            a:visited {
+                color: maroon; }
+
+            a:hover {
+                color:#C70039;
+                text-decoration: underline; }
+        
+
+            /* Dashed black border */
+             hr.new2 {
+                border-top: 1px dashed #4d2600;
+            }
+                footer {font-size: 12pt;
+            }
+
+           
