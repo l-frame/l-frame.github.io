@@ -1,0 +1,17 @@
+
+    body {
+        background-color:aqua 
+    }
+    
+    header, footer {
+        background-color: black;
+        color: white;
+    }
+    main {
+        border: 13px solid red;}
+
+    article {
+        background-color: white;
+        border: 1px solid gray;
+    }
+   
