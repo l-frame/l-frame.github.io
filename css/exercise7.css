@@ -1,17 +1,105 @@
 
-    body {
-        background-color:aqua 
-    }
     
-    header, footer {
-        background-color: black;
-        color: white;
-    }
-    main {
-        border: 13px solid red;}
+    
+  
+        header {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: black;
+                color: white;
+                padding: 2rem;
+                text-align: right;
+            }
 
-    article {
-        background-color: white;
-        border: 1px solid gray;
-    }
+        
+            main {
+                border: 0px solid red;}
+
+       
+            article {
+                background-color: white;
+                border: 1px solid gray;
+                border-radius: 1.5rem;
+                padding: 1.3rem;
+                margin: .5rem;
+                margin-bottom: 1.5rem;
+            }
+
+        
+            .wrapper {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                border: 0px black solid;       /* shows the edges of our div */
+                margin: 0 auto;                  /* centers element horizontally */
+                max-width: 40rem;                /* In order for the container to appears centered, it needs a width */
+            }
+ 
+    
+
+            footer {
+                text-align: center;
+                background-color: black;
+                color: white;
+                padding: 1rem;
+            }
+
    
+            h1 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+            }
+
+            /* link styling */
+            a:link {
+                color: #341C09;
+            }
+
+            a:visited {
+                color: #B85B14;
+            }
+
+            a:hover {
+                color: #FC7307;
+            }
+    
+            a:active {
+                color: #8B4C18;
+            }
+            
+            header a:link {
+                color: white;
+                text-decoration: none;
+            }
+
+            
+            header a:visited {
+                color: white;
+                text-decoration: none;
+            }
+
+            header a:hover {
+                color: white;
+                text-decoration: overline;
+            }
+
+            header a:active {
+                color: white;
+                text-decoration: underline;
+            }
+
+            h2 {
+                font-size: 98%;
+            }
+
+            h2.LF {
+                display: grid;
+                border-radius: 50%;
+                align-items: center;
+                text-align: center;
+                background-color: #884dff;
+                width: 6rem;
+                height: 6rem;
+                font-family: 'Lucida Handwriting', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: xx-large;
+                
+            }
+    
+        
