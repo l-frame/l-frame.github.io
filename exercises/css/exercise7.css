@@ -1,13 +1,9 @@
 
     
     
-  body {
-                background-color: #2161ab;
-                margin: 0;
-            }
-    
-   
+  
         header {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 background-color: black;
                 color: white;
                 padding: 2rem;
@@ -30,7 +26,7 @@
 
         
             .wrapper {
-        
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 border: 0px black solid;       /* shows the edges of our div */
                 margin: 0 auto;                  /* centers element horizontally */
                 max-width: 40rem;                /* In order for the container to appears centered, it needs a width */
@@ -47,6 +43,7 @@
 
    
             h1 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 text-align: center;
             }
 
@@ -88,13 +85,21 @@
                 text-decoration: underline;
             }
 
+            h2 {
+                font-size: 98%;
+            }
+
             h2.LF {
                 display: grid;
                 border-radius: 50%;
                 align-items: center;
                 text-align: center;
-                background-color: #2D7CD7;
+                background-color: #884dff;
                 width: 6rem;
                 height: 6rem;
+                font-family: 'Lucida Handwriting', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: xx-large;
                 
             }
+    
+        
