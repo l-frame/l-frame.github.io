@@ -1,12 +1,12 @@
 /*HOME PAGE*/
-        header {
+header {
     font-size: xx-large;
 }
 h1 {
     font-family: 'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 300;
     font-size: 24pt;
-    color: black;
+    color: navy;
     text-align: center;
     }
 
@@ -65,6 +65,57 @@ main {
 footer {
     text-align: center;
     background-color: antiquewhite;
-    color: black;
+    color: navy;
     padding: 9px;
+    }
+
+
+/*PORFOLIOS PAGE*/
+
+h1 {
+    font-family: 'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 24pt;
+    color: navy;
+    text-align: center;
+    }
+
+h2 {
+    font-family: 'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 24pt;
+    color: navy;
+    text-align: center;
+}
+
+.portfolio-image {
+    
+    background-image: url(/images/sky880x660.jpg);
+    background-position: center;
+    background-attachment: fixed; /* Keeps image fixed when scrolling */
+    background-color: #cccccc; /* Fallback color if image fails to load */
+    display: flex;
+   }
+
+nav li {
+    list-style-type: none;
+   
+    }
+
+nav a {
+    color: black;
+    padding: 25px;
+    }
+
+nav a:hover {
+    color: palegoldenrod;
+    background-color: black;
+    }
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+    
     }
